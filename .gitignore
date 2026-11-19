@@ -1,0 +1,19 @@
+# Publish ONLY what is listed below. Everything else is ignored.
+/*
+
+# ---- allowed ----
+!/.gitignore
+!/README.md
+!/screenshots/
+!/lib/
+!/pubspec.yaml
+!/pubspec.lock
+!/analysis_options.yaml
+
+# ---- never, even inside the allowed folders ----
+.DS_Store
+Thumbs.db
+*.mp4
+*.mov
+.env
+.env.*
